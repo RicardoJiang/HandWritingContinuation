@@ -48,7 +48,6 @@ class PythonGenerator {
         override fun next(): T {
             return when (val currentState = state) {
                 is State.NotReady -> {
-                    resume()
                     return next()
                 }
                 is State.Ready<*> -> {

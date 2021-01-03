@@ -3,6 +3,7 @@ package com.zj.handwritingcontinuation
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.zj.handwritingcontinuation.python.PythonGenerator
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

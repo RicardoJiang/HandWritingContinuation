@@ -1,4 +1,4 @@
-package com.zj.handwritingcontinuation
+package com.zj.handwritingcontinuation.python
 
 import kotlin.coroutines.*
 
